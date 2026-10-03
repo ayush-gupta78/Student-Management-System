@@ -1,0 +1,8 @@
+spring.application.name=restApi
+spring.datasource.url=jdbc:postgresql://localhost:9999/studentDB
+spring.datasource.username=postgres
+spring.datasource.password=YOUR_PASSWORD_HERE
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true 
+spring.jpa.properties.hibernate.format_sql=true 
+server.servlet.context-path=/api
